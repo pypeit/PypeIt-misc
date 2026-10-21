@@ -169,3 +169,58 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# ------------------------------------------------------------------
+# PypeIt-misc additions (papers, proposals, presentations)
+# NOTE: PDFs, .odp, .tex, .bib, .cls and .sty files are tracked;
+#       do not add patterns for them here.
+# ------------------------------------------------------------------
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.dvi
+*.xdv
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.run.xml
+*-blx.bib
+*.spl
+*.brf
+*.idx
+*.ilg
+*.ind
+_minted*/
+
+# LibreOffice lock files
+.~lock.*#
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editors
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+\#*\#
+.\#*
+
+# Claude Code (local, per-user settings)
+.claude/settings.local.json
