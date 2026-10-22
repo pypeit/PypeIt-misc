@@ -22,6 +22,9 @@ This is a miscellany, not a Python package.  There is nothing to install.
   - `start_up.md` -- setting up this repo (CLAUDE.md, skills, settings,
     these basic files)
   - `count_the_lines.md` -- counting the lines of code in PypeIt
+- `lines_of_code/` -- scripts, CSV, and figure counting the lines of code and
+  docs in PypeIt over time, with the GenAI-written share (see
+  `prompts/count_the_lines.md`).
 - `CLAUDE.md` -- conventions for working in this repository with Claude Code.
 
 ## Authors

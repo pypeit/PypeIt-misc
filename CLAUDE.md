@@ -49,4 +49,6 @@ write to them.**
 - `proposals/` -- funding/telescope proposals (`ADAP/`, `NSF/`, `UCO/`,
   `WMKO/`).
 - `prompts/` -- prompt docs driving Claude tasks and their logs.
+- `lines_of_code/` -- line-count analysis of the PypeIt repo (scripts, CSV,
+  figure); re-run `count_lines.py` then `plot_lines.py` with `pypeit14`.
 - `README.md`, `LICENSE` (BSD 3-Clause).
